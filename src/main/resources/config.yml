@@ -1,0 +1,14 @@
+# TNTMinecartNerfer - Configuration
+#
+# multiplier values:
+#   1.0 = normal (vanilla)
+#   0.6 = 60% of normal
+#   2.0 = 200% (double damage)
+#   0.0 = no damage / no block destruction
+
+# Multiplier for damage dealt to players and entities
+entity-damage-multiplier: 0.6
+
+# Multiplier for block destruction radius
+# (modifies the explosion radius before it happens)
+block-damage-multiplier: 0.6

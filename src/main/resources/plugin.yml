@@ -1,0 +1,16 @@
+name: TNTMinecartNerfer
+version: '${project.version}'
+main: pl.tntnerfer.TNTMinecartNerfer
+api-version: '1.21'
+description: Modify TNT Minecart explosion damage and blast radius
+authors: [YourName]
+
+commands:
+  tntreload:
+    description: Reload the config
+    usage: /tntreload
+    permission: tntnerfer.reload
+
+permissions:
+  tntnerfer.reload:
+    default: op
